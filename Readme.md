@@ -1,9 +1,9 @@
 # Exercícios de Ciência da Computação — The Odin Project
 
+Coleção de exercícios de recursão e estruturas de dados, parte do currículo Full Stack JavaScript do The Odin Project. Cada pasta contém a implementação e sua suíte de testes automatizados com Jest.
+
 ![Testes passando - visão geral](./imagens/testes-geral.png)
 ![Testes passando - detalhado](./imagens/testes-detalhado.png)
-
-Coleção de exercícios de recursão e estruturas de dados, parte do currículo Full Stack JavaScript do The Odin Project. Cada pasta contém a implementação e sua suíte de testes automatizados com Jest.
 
 ## 📂 Estrutura
 
