@@ -22,7 +22,7 @@ function fibsRec(n) {
   //
   let arrayAnterior = fibsRec(n - 1);
   //
-  console.log(arrayAnterior);
+  //console.log(arrayAnterior);
   //
   let ultimo = arrayAnterior[arrayAnterior.length - 1];
   let penultimo = arrayAnterior[arrayAnterior.length - 2];
@@ -40,9 +40,9 @@ function mergeSort(arrayRecebido) {
   let direita = arrayRecebido.slice(metade, arrayRecebido.length);
   //
   // LOG 1: Mostra a divisão acontecendo
-  console.log(
-    `✂️ Dividindo: [${arrayRecebido}] -> Esquerda: [${esquerda}] | Direita: [${direita}]`,
-  );
+  //console.log(
+    //`✂️ Dividindo: [${arrayRecebido}] -> Esquerda: [${esquerda}] | Direita: [${direita}]`,
+  //);
   //
   let esquerdaOrdenada = mergeSort(esquerda);
   let direitaOrdenada = mergeSort(direita);
@@ -73,14 +73,14 @@ function merge(esquerda, direita) {
     ...direita.slice(iDireita)
   ];
   // LOG 2: Mostra a intercalação dos dois lados
-  console.log(
-    `🧩 Juntando [${esquerda}] + [${direita}] -> Resultado: [${resultadoFinal}]`,
-  );
+  //console.log(
+  //  `🧩 Juntando [${esquerda}] + [${direita}] -> Resultado: [${resultadoFinal}]`,
+  //);
   //
   return resultadoFinal;
 }
 
-console.log("Resultado:", mergeSort([3, 2, 1, 13, 8, 5, 0, 1]));
+//console.log("Resultado:", mergeSort([3, 2, 1, 13, 8, 5, 0, 1]));
 //console.log(fibsRec(8));
 
 module.exports = {
