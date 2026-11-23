@@ -17,7 +17,6 @@ Coleção de exercícios de recursão e estruturas de dados, parte do currículo
 | `9_BinaryTree` | Árvore Binária de Busca balanceada | `binaryTree.js` | ✅ 23 testes |
 
 ## 🧪 Rodando os testes
-'''
 
 ```bash
 npm install
