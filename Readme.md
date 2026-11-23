@@ -19,18 +19,27 @@ Coleção de exercícios de recursão e estruturas de dados, parte do currículo
 ## 🧪 Rodando os testes
 
 \`\`\`bash
+
 npm install
+
 npx jest              # roda todos os testes do projeto
+
 npx jest 9_BinaryTree  # roda só uma pasta específica
+
 npx jest --verbose    # mostra cada teste individualmente
+
 \`\`\`
 
 Cada uma das pastas `7_Lista`, `8_Hash` e `9_BinaryTree` também tem um arquivo `mainTest.js` com exemplos de uso visual via `console.log` — para rodar manualmente:
 
 \`\`\`bash
+
 node 7_Lista/mainTest.js
+
 node 8_Hash/mainTest.js
+
 node 9_BinaryTree/mainTest.js
+
 \`\`\`
 
 ## 🛠️ Tecnologias
